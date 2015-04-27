@@ -14,6 +14,7 @@
 		63610F5C1AECD16400C642CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63610F5B1AECD16400C642CF /* Images.xcassets */; };
 		63610F5F1AECD16400C642CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63610F5D1AECD16400C642CF /* LaunchScreen.xib */; };
 		63610F6B1AECD16400C642CF /* SoftwareTesting_Homework2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63610F6A1AECD16400C642CF /* SoftwareTesting_Homework2Tests.m */; };
+		63610F761AECD44100C642CF /* BillCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 63610F751AECD44100C642CF /* BillCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		63610F641AECD16400C642CF /* SoftwareTesting-Homework2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoftwareTesting-Homework2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63610F691AECD16400C642CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63610F6A1AECD16400C642CF /* SoftwareTesting_Homework2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareTesting_Homework2Tests.m; sourceTree = "<group>"; };
+		63610F741AECD44100C642CF /* BillCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillCalculator.h; sourceTree = "<group>"; };
+		63610F751AECD44100C642CF /* BillCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				63610F531AECD16400C642CF /* AppDelegate.m */,
 				63610F551AECD16400C642CF /* ViewController.h */,
 				63610F561AECD16400C642CF /* ViewController.m */,
+				63610F741AECD44100C642CF /* BillCalculator.h */,
+				63610F751AECD44100C642CF /* BillCalculator.m */,
 				63610F581AECD16400C642CF /* Main.storyboard */,
 				63610F5B1AECD16400C642CF /* Images.xcassets */,
 				63610F5D1AECD16400C642CF /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63610F761AECD44100C642CF /* BillCalculator.m in Sources */,
 				63610F571AECD16400C642CF /* ViewController.m in Sources */,
 				63610F541AECD16400C642CF /* AppDelegate.m in Sources */,
 				63610F511AECD16400C642CF /* main.m in Sources */,
